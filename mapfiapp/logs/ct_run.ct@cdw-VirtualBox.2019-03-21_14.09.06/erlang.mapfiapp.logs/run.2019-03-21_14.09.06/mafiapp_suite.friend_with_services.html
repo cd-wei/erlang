@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Test mafiapp_SUITE:friend_with_services result</title>
+<meta http-equiv="cache-control" content="no-cache"></meta>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<link rel="stylesheet" href="../../ct_default.css" type="text/css"></link>
+<script type="text/javascript" src="../../jquery-latest.js"></script>
+<script type="text/javascript" src="../../jquery.tablesorter.min.js"></script>
+</head>
+<body>
+
+<a name="top"></a><pre>
+=== Test case: <a href="mafiapp_suite.src.html#friend_with_services-1">mafiapp_SUITE:friend_with_services/1</a> (click for source code)
+
+=== Config value:
+
+    [{watchdog,&lt;0.123.0&gt;},
+     {tc_logfile,"/home/cdw/cdw/learn/erlang/mapfiapp/logs/ct_run.ct@cdw-VirtualBox.2019-03-21_14.09.06/erlang.mapfiapp.logs/run.2019-03-21_14.09.06/mafiapp_suite.friend_with_services.html"},
+     {tc_group_properties,[]},
+     {tc_group_path,[]},
+     {data_dir,"/home/cdw/cdw/learn/erlang/mapfiapp/test/mafiapp_SUITE_data/"},
+     {priv_dir,"/home/cdw/cdw/learn/erlang/mapfiapp/logs/ct_run.ct@cdw-VirtualBox.2019-03-21_14.09.06/erlang.mapfiapp.logs/run.2019-03-21_14.09.06/log_private/"}]
+
+=== Current directory is "/home/cdw/cdw/learn/erlang/mapfiapp/logs/ct_run.ct@cdw-VirtualBox.2019-03-21_14.09.06"
+
+=== Started at 2019-03-21 14:09:07
+
+<br />
+
+</pre>
+<div class="ct_error_notify"><pre><b>*** CT Error Notification 2019-03-21 14:09:07.246 ***</b>
+mafiapp_SUITE:friend_with_services failed on line 68
+Reason: {badmatch,{"Someone",
+ [{other,"at the fruit stand"}],
+ [wei...}
+
+<a href="#end">Full error description and stacktrace</a>
+</pre></div>
+<pre>
+<a name="end"></a>
+
+
+=== Ended at 2019-03-21 14:09:07
+=== Location: [{mafiapp_SUITE,friend_with_services,<a href="mafiapp_suite.src.html#68">68</a>},
+              {test_server,ts_tc,1546},
+              {test_server,run_test_case_eval1,1062},
+              {test_server,run_test_case_eval,994}]
+=== Reason: no match of right hand side value 
+                 {"Someone",
+                  [{other,"at the fruit stand"}],
+                  [weird,mysterious],
+                  shadiness,
+                  [{from,"Don Corleone",{1949,2,14},"Increased business"},
+                   {to,"Don Corleone",{1949,12,25},"Gave a Christmas gift"}]}
+  in function  mafiapp_SUITE:friend_with_services/1 (mafiapp_SUITE.erl, line 68)
+  in call from test_server:ts_tc/3 (test_server.erl, line 1546)
+  in call from test_server:run_test_case_eval1/6 (test_server.erl, line 1062)
+  in call from test_server:run_test_case_eval/9 (test_server.erl, line 994)
+</pre>
+<center>
+<br /><hr /><p>
+<a href="../../../all_runs.html">Test run history
+</a>  |  <a href="../../../index.html">Top level test index
+</a>  |  <a href="../../../suite.log.latest.html">Latest test result</a>
+</p>
+<div class="copyright">Copyright &copy; 2019 <a href="http://www.erlang.org">Open Telecom Platform</a><br />
+Updated: <!--date-->Thu Mar 21 2019 14:09:07<!--/date--><br />
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,77 @@
+=== Suite started at 2019-03-21 14:20:58
+=== Starting test, 3 test cases
+=cases         3
+=user          root
+=host          cdw-VirtualBox
+=hosts         cdw-VirtualBox 
+=emulator_vsn  9.3
+=emulator      beam
+=otp_release   20
+=started       2019-03-21 14:20:58
+=case          mafiapp_SUITE:init_per_suite
+=logfile       mafiapp_suite.init_per_suite.html
+=started       2019-03-21 14:20:58
+=ended         2019-03-21 14:20:59
+=result        ok
+=elapsed       0.403931
+=case          mafiapp_SUITE:add_service
+=logfile       mafiapp_suite.add_service.html
+=started       2019-03-21 14:20:59
+=ended         2019-03-21 14:20:59
+=result        ok
+=elapsed       2.3e-4
+=case          mafiapp_SUITE:friend_by_name
+=logfile       mafiapp_suite.friend_by_name.html
+=started       2019-03-21 14:20:59
+=ended         2019-03-21 14:20:59
+=result        ok
+=elapsed       1.8e-4
+=case          mafiapp_SUITE:friend_with_services
+=logfile       mafiapp_suite.friend_with_services.html
+=started       2019-03-21 14:20:59
+=ended         2019-03-21 14:20:59
+=result        failed: {{badmatch,
+                            {"Someone",
+                             [{other,"at the fruit stand"}],
+                             [weird,mysterious],
+                             shadiness,
+                             [{from,"Don Corleone",
+                                  {1949,2,14},
+                                  "Increased business"},
+                              {to,"Don Corleone",
+                                  {1949,12,25},
+                                  "Gave a Christmas gift"}]}},
+                        [{mafiapp_SUITE,friend_with_services,1,
+                             [{file,"mafiapp_SUITE.erl"},{line,68}]},
+                         {test_server,ts_tc,3,
+                             [{file,"test_server.erl"},{line,1546}]},
+                         {test_server,run_test_case_eval1,6,
+                             [{file,"test_server.erl"},{line,1062}]},
+                         {test_server,run_test_case_eval,9,
+                             [{file,"test_server.erl"},{line,994}]}]}, [{mafiapp_SUITE,
+                                                                         friend_with_services,
+                                                                         68},
+                                                                        {test_server,
+                                                                         ts_tc,
+                                                                         1546},
+                                                                        {test_server,
+                                                                         run_test_case_eval1,
+                                                                         1062},
+                                                                        {test_server,
+                                                                         run_test_case_eval,
+                                                                         994}]
+=== *** FAILED test case 3 of 3 ***
+=case          mafiapp_SUITE:end_per_suite
+=logfile       mafiapp_suite.end_per_suite.html
+=started       2019-03-21 14:20:59
+=ended         2019-03-21 14:20:59
+=result        ok
+=elapsed       0.001751
+=group_time    0.591s
+=== TEST COMPLETE, 2 ok, 1 failed of 3 test cases
+
+=finished      2019-03-21 14:20:59
+=failed        1
+=successful    2
+=user_skipped  0
+=auto_skipped  0

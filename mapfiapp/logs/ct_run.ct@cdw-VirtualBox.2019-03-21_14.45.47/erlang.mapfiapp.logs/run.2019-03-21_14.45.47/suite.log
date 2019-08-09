@@ -1,0 +1,95 @@
+=== Suite started at 2019-03-21 14:45:47
+=== Starting test, 6 test cases
+=cases         6
+=user          root
+=host          cdw-VirtualBox
+=hosts         cdw-VirtualBox 
+=emulator_vsn  9.3
+=emulator      beam
+=otp_release   20
+=started       2019-03-21 14:45:47
+=case          mafiapp_SUITE:init_per_suite
+=logfile       mafiapp_suite.init_per_suite.html
+=started       2019-03-21 14:45:48
+=ended         2019-03-21 14:45:48
+=result        ok
+=elapsed       0.391697
+=case          mafiapp_SUITE:add_service
+=logfile       mafiapp_suite.add_service.html
+=started       2019-03-21 14:45:48
+=ended         2019-03-21 14:45:48
+=result        ok
+=elapsed       2.47e-4
+=case          mafiapp_SUITE:friend_by_name
+=logfile       mafiapp_suite.friend_by_name.html
+=started       2019-03-21 14:45:48
+=ended         2019-03-21 14:45:48
+=result        ok
+=elapsed       1.63e-4
+=case          mafiapp_SUITE:friend_by_expertise
+=logfile       mafiapp_suite.friend_by_expertise.html
+=started       2019-03-21 14:45:48
+=ended         2019-03-21 14:45:48
+=result        ok
+=elapsed       2.45e-4
+=case          mafiapp_SUITE:friend_with_services
+=logfile       mafiapp_suite.friend_with_services.html
+=started       2019-03-21 14:45:48
+=ended         2019-03-21 14:45:48
+=result        failed: {{badmatch,
+                            {"Someone",
+                             [{other,"at the fruit stand"}],
+                             [weird,mysterious],
+                             shadiness,
+                             [{from,"Don Corleone",
+                                  {1949,2,14},
+                                  "Increased business"},
+                              {to,"Don Corleone",
+                                  {1949,12,25},
+                                  "Gave a Christmas gift"}]}},
+                        [{mafiapp_SUITE,friend_with_services,1,
+                             [{file,"mafiapp_SUITE.erl"},{line,97}]},
+                         {test_server,ts_tc,3,
+                             [{file,"test_server.erl"},{line,1546}]},
+                         {test_server,run_test_case_eval1,6,
+                             [{file,"test_server.erl"},{line,1062}]},
+                         {test_server,run_test_case_eval,9,
+                             [{file,"test_server.erl"},{line,994}]}]}, [{mafiapp_SUITE,
+                                                                         friend_with_services,
+                                                                         97},
+                                                                        {test_server,
+                                                                         ts_tc,
+                                                                         1546},
+                                                                        {test_server,
+                                                                         run_test_case_eval1,
+                                                                         1062},
+                                                                        {test_server,
+                                                                         run_test_case_eval,
+                                                                         994}]
+=== *** FAILED test case 4 of 6 ***
+=case          mafiapp_SUITE:accounts
+=logfile       mafiapp_suite.accounts.html
+=started       2019-03-21 14:45:48
+=ended         2019-03-21 14:45:48
+=result        ok
+=elapsed       5.54e-4
+=case          mafiapp_SUITE:enemies
+=logfile       mafiapp_suite.enemies.html
+=started       2019-03-21 14:45:48
+=ended         2019-03-21 14:45:48
+=result        ok
+=elapsed       1.93e-4
+=case          mafiapp_SUITE:end_per_suite
+=logfile       mafiapp_suite.end_per_suite.html
+=started       2019-03-21 14:45:48
+=ended         2019-03-21 14:45:48
+=result        ok
+=elapsed       0.001727
+=group_time    0.723s
+=== TEST COMPLETE, 5 ok, 1 failed of 6 test cases
+
+=finished      2019-03-21 14:45:48
+=failed        1
+=successful    5
+=user_skipped  0
+=auto_skipped  0

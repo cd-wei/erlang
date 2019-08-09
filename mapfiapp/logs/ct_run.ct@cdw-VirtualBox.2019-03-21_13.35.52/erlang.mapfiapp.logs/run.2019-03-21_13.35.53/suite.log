@@ -1,0 +1,36 @@
+=== Suite started at 2019-03-21 13:35:53
+=== Starting test, 1 test cases
+=cases         1
+=user          root
+=host          cdw-VirtualBox
+=hosts         cdw-VirtualBox 
+=emulator_vsn  9.3
+=emulator      beam
+=otp_release   20
+=started       2019-03-21 13:35:53
+=case          mafiapp_SUITE:init_per_suite
+=logfile       mafiapp_suite.init_per_suite.html
+=started       2019-03-21 13:35:53
+=ended         2019-03-21 13:35:54
+=result        ok
+=elapsed       0.814335
+=case          mafiapp_SUITE:add_service
+=logfile       mafiapp_suite.add_service.html
+=started       2019-03-21 13:35:54
+=ended         2019-03-21 13:35:54
+=result        ok
+=elapsed       2.26e-4
+=case          mafiapp_SUITE:end_per_suite
+=logfile       mafiapp_suite.end_per_suite.html
+=started       2019-03-21 13:35:54
+=ended         2019-03-21 13:35:54
+=result        ok
+=elapsed       0.002483
+=group_time    0.922s
+=== TEST COMPLETE, 1 ok, 0 failed of 1 test cases
+
+=finished      2019-03-21 13:35:54
+=failed        0
+=successful    1
+=user_skipped  0
+=auto_skipped  0
